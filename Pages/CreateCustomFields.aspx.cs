@@ -149,7 +149,6 @@ namespace SitefinityWebApp.Pages
                 metatypes.Add(new MyMetaType(typeof(ForumThread)));
                 metatypes.Add(new MyMetaType(typeof(ForumPost)));
                 metatypes.Add(new MyMetaType(typeof(Subscriber)));
-                metatypes.Add(new MyMetaType(typeof(Campaign)));
 
                 return metatypes;
             }
